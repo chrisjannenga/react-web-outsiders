@@ -1,0 +1,113 @@
+.App {
+  background-color: #efebe9;
+  height: 100%;
+}
+
+.CardShopper {
+  background: url(https://i.imgur.com/VtuyesF.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.8;
+  height: 100%;
+}
+
+.fullHeight {
+  height: 100vh;
+}
+
+.addSomeHeightBottom {
+  height: 87.7vh;
+}
+
+.addSomeHeightTop {
+  height: 87.7vh;
+}
+
+.cityBG {
+  background: url(https://i.imgur.com/FMeh18V.jpg) no-repeat center center fixed;
+}
+
+.cityBgFull {
+  background: url(https://i.imgur.com/FMeh18V.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* label color */
+
+.input-field label {
+  color: orange !important;
+}
+
+/* label focus color */
+
+.input-field input:focus+label {
+  color: orange !important;
+}
+
+/* label underline focus color */
+
+.row .input-field input:focus {
+  border-bottom: 1px solid orange !important;
+  box-shadow: 0 1px 0 0 orange !important;
+}
+
+/* valid color */
+
+.input-field input.valid {
+  border-bottom: 1px solid orange;
+  box-shadow: 0 1px 0 0 orange;
+}
+
+/* invalid color */
+
+.input-field input.invalid {
+  border-bottom: 1px solid orange;
+  box-shadow: 0 1px 0 0 orange;
+}
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+  color: orange;
+}
+
+input:focus {
+  border-bottom: 1px solid orange !important;
+  -webkit-box-shadow: 0 1px 0 0 orange;
+  -moz-box-shadow: 0 1px 0 0 orange;
+  box-shadow: 0 1px 0 0 orange;
+}
+
+.tabs .indicator {
+  background-color: orange;
+}
+
+.whiteBorder {
+  border: 3px solid white;
+}
+
+.rightPadding {
+  padding-right: 1vw;
+}
+
+.cursiveText {
+  font-family: 'Pacifico', cursive;
+}
+
+.quickSandText {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.top-pad {
+  padding-top: 1vh;
+}
+
+.fullPercent {
+  height: 100%;
+}
